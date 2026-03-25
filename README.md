@@ -25,6 +25,18 @@ Everything runs locally on your device using [OpenAI Whisper](https://github.com
 - Internet connection during installation only (to download the AI model ~145 MB)
 
 ---
+# Download
+ 
+**[Download the latest installer →](https://github.com/JoshuaTrapani/Typra/releases/download/v1.0.0/Typra_Setup.exe)**
+ 
+Just download `Typra_Setup.exe`, run it and follow the steps. The installer handles everything including Python and the AI model.
+ 
+**System requirements:**
+- Windows 10 or Windows 11 (64-bit)
+- 500 MB free disk space
+- Internet connection during installation only (to download the AI model ~145 MB)
+
+---
 
 ## How it works
 
