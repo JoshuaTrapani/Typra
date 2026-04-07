@@ -8,14 +8,14 @@ Everything runs locally on your device using [OpenAI Whisper](https://github.com
 
 ## Features
 
-- **Fully offline** — speech never leaves your device
-- **Types anywhere** — works in any Windows application
-- **Global hotkey** — press `Ctrl + Shift + Space` to start and stop from anywhere
-- **Live waveform** — small overlay shows you when Typra is listening
-- **System tray** — runs quietly in the background, right-click to control
-- **Dark & Light mode** — icon and settings window adapt to your Windows theme
+- **Fully offline** speech never leaves your device
+- **Types anywhere** works in any Windows application
+- **Global hotkey** press `Ctrl + Shift + Space` to start and stop from anywhere
+- **Live waveform** small overlay shows you when Typra is listening
+- **System tray** runs quietly in the background, right-click to control
+- **Dark & Light mode** icon and settings window adapt to your Windows theme
 - **Supports English, German and French**
-- **No GPU required** — runs on any modern CPU
+- **No GPU required** runs on any modern CPU
 
 ---
 
@@ -25,7 +25,7 @@ Everything runs locally on your device using [OpenAI Whisper](https://github.com
 - Internet connection during installation only (to download the AI model ~145 MB)
 
 ---
-# Download
+# Download & Installation
  
 **[Download the latest installer →](https://github.com/JoshuaTrapani/Typra/releases/download/v1.0.0/Typra_Setup.exe)**
  
@@ -41,7 +41,7 @@ Just download `Typra_Setup.exe`, run it and follow the steps. The installer hand
 ## How it works
 
 1. Typra loads a local AI speech recognition model (Whisper Base, ~145 MB)
-2. Press `Ctrl + Shift + Space` — a small waveform overlay appears at the bottom of your screen
+2. Press `Ctrl + Shift + Space` a small waveform overlay appears at the bottom of your screen
 3. Speak naturally
 4. Your words are transcribed and typed into whatever app you were using
 5. Press the hotkey again or click the red button to stop
@@ -63,11 +63,11 @@ run.bat
 `run.bat` will automatically create a virtual environment and install all dependencies on first run.
 
 **Dependencies installed automatically:**
-- `faster-whisper` — local Whisper inference
-- `PyQt6` — user interface
-- `sounddevice` — microphone input
-- `pynput` — global hotkey and keyboard simulation
-- `pywin32` — Windows API integration
+- `faster-whisper` local Whisper inference
+- `PyQt6` user interface
+- `sounddevice` microphone input
+- `pynput` global hotkey and keyboard simulation
+- `pywin32` Windows API integration
 
 ---
 
@@ -109,7 +109,7 @@ Typra uses **Whisper Base** by OpenAI, running locally via faster-whisper with C
 
 ## Licence
 
-MIT — free to use, share and modify. See [LICENSE](LICENSE) for details.
+MIT free to use, share and modify. See [LICENSE](LICENSE) for details.
 
 ---
 
@@ -118,3 +118,6 @@ MIT — free to use, share and modify. See [LICENSE](LICENSE) for details.
 - [OpenAI Whisper](https://github.com/openai/whisper) — speech recognition model
 - [faster-whisper](https://github.com/SYSTRAN/faster-whisper) — optimised Whisper inference
 - [PyQt6](https://pypi.org/project/PyQt6/) — user interface framework
+
+> [!WARNING]
+> Typra is an early-release, vibecoded tool provided as-is. It may contain bugs or behave unexpectedly in some environments. Use at your own discretion.
