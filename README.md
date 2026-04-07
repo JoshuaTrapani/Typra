@@ -115,9 +115,9 @@ MIT free to use, share and modify. See [LICENSE](LICENSE) for details.
 
 ## Acknowledgements
 
-- [OpenAI Whisper](https://github.com/openai/whisper) — speech recognition model
-- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) — optimised Whisper inference
-- [PyQt6](https://pypi.org/project/PyQt6/) — user interface framework
+- [OpenAI Whisper](https://github.com/openai/whisper) speech recognition model
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) optimised Whisper inference
+- [PyQt6](https://pypi.org/project/PyQt6/) user interface framework
 
 > [!WARNING]
 > Typra is an early-release, vibecoded tool provided as-is. It may contain bugs or behave unexpectedly in some environments. Use at your own discretion.
