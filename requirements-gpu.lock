@@ -1,0 +1,8 @@
+# Optional GPU support: NVIDIA cuBLAS for CUDA 12, needed by CTranslate2 to
+# run Whisper on an NVIDIA GPU (cuDNN ships with CTranslate2). Installed by
+# Settings > Advanced > Install GPU support, and kept by the installer on
+# updates. Exact versions, SHA-256 verified, wheels only. Regenerate with
+#   python tools/lock_requirements.py --gpu
+
+nvidia-cublas-cu12==12.9.2.10 --hash=sha256:623f43027d40d44ceadf0043f002bd25cf353e8f13ce90b9a87057019f560661
+nvidia-cuda-nvrtc-cu12==12.9.86 --hash=sha256:72972ebdcf504d69462d3bcd67e7b81edd25d0fb85a2c46d3ea3517666636349

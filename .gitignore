@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Installer build output
+installer/build/
+*.exe
+
+# Never publish user data, logs or downloaded models
+*.log
+*.db
+*.sqlite*
+settings.json
+.whisper_dictation/
+hf_home/
+models/
+*.gguf
+*.safetensors
+*.wav
+*.part
+*.tmp
+
+# Local tooling / editors / secrets
+.claude/
+.vscode/
+.idea/
+.env
+*.pem
+*.key
+Thumbs.db
+desktop.ini
+*.zip

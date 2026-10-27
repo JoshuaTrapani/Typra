@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.nsi text eol=crlf
+*.nsh text eol=crlf
+*.ico binary
+*.png binary
+*.gguf binary

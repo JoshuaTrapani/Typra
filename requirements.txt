@@ -1,0 +1,12 @@
+# Top-level dependencies. Installs use requirements.lock (exact versions,
+# SHA-256 hashes, wheels only); regenerate it after editing this file with
+#   python tools/lock_requirements.py
+PyQt6>=6.6.0
+faster-whisper>=1.1.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+pynput>=1.7.6
+
+# Optional: only needed for the local AI cleanup feature. Not installed by
+# default; versions before 0.2.72 are vulnerable to CVE-2024-34359.
+#   .venv\Scripts\python.exe -m pip install --use-feature=truststore "llama-cpp-python>=0.3.9" --only-binary=:all: --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu

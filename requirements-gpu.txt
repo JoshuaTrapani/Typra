@@ -1,0 +1,2 @@
+# Optional GPU acceleration for NVIDIA cards (see requirements-gpu.lock).
+nvidia-cublas-cu12>=12.4,<13
